@@ -7,6 +7,28 @@
     <title>Carrusel con Jquery</title>
 </head>
 <body>
+    	<div class="carousel">
+		<div data-slide="0" class="carousel-content active">
+			<img src="img/1.jpeg" alt="Imagen 1">
+		</div>
+		<div data-slide="1" class="carousel-content ">
+			<img src="img/2.jpeg" alt="Imagen 2">
+		</div>
+		<div data-slide="2" class="carousel-content ">
+			<img src="img/3.jpeg" alt="Imagen 3">
+		</div>
+		<div data-slide="3" class="carousel-content">
+			<img src="img/4.jpeg" alt="Imagen 4">
+		</div>
+	</div>
+	<div class="controls">
+		<a href="#" class="previous">&#60;</a>
+		<button type="button" data-target="0" class="control"></button>
+		<button type="button" data-target="1" class="control"></button>
+		<button type="button" data-target="2" class="control"></button>
+		<button type="button" data-target="3" class="control"></button>
+		<a href="#" class="next">&#62;</a>
+	</div>
     <script src="js\jquery-3.2.1.min.js"></script>
     <script src="js\main.js"></script>
 </body>
